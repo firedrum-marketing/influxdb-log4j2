@@ -1,7 +1,6 @@
 influxdb-log4j2
 =============
-
-[![Maven Central](https://img.shields.io/maven-central/v/com.firedrum/influxdb-log4j2.svg)](https://github.com/jhorowitz-firedrum/influxdb-log4j2)
+[![GitHub issues](https://img.shields.io/github/issues/jhorowitz-firedrum/influxdb-log4j2.svg)](https://github.com/jhorowitz-firedrum/influxdb-log4j2/issues) [![GitHub forks](https://img.shields.io/github/forks/jhorowitz-firedrum/influxdb-log4j2.svg)](https://github.com/jhorowitz-firedrum/influxdb-log4j2/network) [![GitHub stars](https://img.shields.io/github/stars/jhorowitz-firedrum/influxdb-log4j2.svg)](https://github.com/jhorowitz-firedrum/influxdb-log4j2/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jhorowitz-firedrum/influxdb-log4j2/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/com.firedrum/influxdb-log4j2.svg)](https://mvnrepository.com/artifact/com.firedrum/influxdb-log4j2)
 
 An InfluxDB Log4j 2 appender.
 
@@ -50,9 +49,9 @@ Follows a few sample configurations for the InfluxDb appender:
 ### Maven
 ```XML
       <dependency>
-        <groupId>com.cbnt</groupId>
+        <groupId>com.firedrum</groupId>
         <artifactId>influxdb-log4j2</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.2.0</version>
       </dependency>
 ```
 
@@ -66,5 +65,5 @@ An example of an exception logged with influxdb-log4j2:
 
 ### Build Requirements
 
-* Java 1.6+
+* Java 1.8+
 * Maven 3.0+
