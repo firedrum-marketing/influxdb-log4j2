@@ -1,6 +1,8 @@
 influxdb-log4j2
 =============
 
+[![Maven Central](https://img.shields.io/maven-central/v/com.firedrum/influxdb-log4j2.svg)](https://github.com/jhorowitz-firedrum/influxdb-log4j2)
+
 An InfluxDB Log4j 2 appender.
 
 This implementation intends to add influxdb support to the [Log4j 2 NoSQL appenders](https://logging.apache.org/log4j/2.x/manual/appenders.html#NoSQLAppender) list.  
@@ -66,5 +68,3 @@ An example of an exception logged with influxdb-log4j2:
 
 * Java 1.6+
 * Maven 3.0+
-
-This implementation is still on early development days and hasn't been published yet to any public maven repository.
